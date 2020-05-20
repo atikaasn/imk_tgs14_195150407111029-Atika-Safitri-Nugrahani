@@ -1,0 +1,201 @@
+.promo{
+	font-family: 'Lato', sans-serif;
+    color: #444444;
+    line-height: 1.6;
+    font-size: 10px;
+    letter-spacing: 1px;
+	font-weight: normal;
+	text-align: center;
+	padding: 7px;
+}
+#buy1{
+	margin-bottom: 0px;
+}
+a.navbar-brand{
+	font-size: 50px;
+	font-family: "Trebuchet MS";
+	font-weight: bold;
+}
+.container-fluid{
+	padding: 50px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #d8b89d;
+}
+#logo{
+	width: 60px;
+	height: 60px;
+	margin-left: 50px;
+}
+#sosmed{
+	width: 25px;
+	height: 25px;
+	margin-top: 13px;
+	margin-right: 20px;
+}
+#menuu{
+	font-weight: bold;
+	font-family: 'Lato', sans-serif;
+    color: #444444;
+    line-height: 1.6;
+    font-size: 12px;
+    letter-spacing: 1px;
+	padding-right: 20px;
+}
+#footer{
+	padding-right: 15px;
+	background-color: white;
+	margin: 0px;
+	border-color: white;
+	padding: 50px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+#menu{
+	padding-top: 20px;
+	padding-right: 10px;
+	font-weight: bold;
+	font-family: 'Lato', sans-serif;
+    color: #444444;
+    line-height: 1.6;
+    font-size: 12px;
+    letter-spacing: 1px;
+	background-color: #d8b89d;
+}
+#contact{
+	padding-top: 20px;
+	padding-right: 60px;
+	font-weight: bold;
+	font-family: 'Lato', sans-serif;
+    color: #444444;
+    line-height: 1.6;
+    font-size: 12px;
+    letter-spacing: 1px;
+	background-color: #d8b89d;
+}
+#a{
+	margin-top: 13px;
+	margin-left: 1px;
+	font-size: 40px;
+	color: black;
+	font-weight: bold;
+	font-family: "Tangerine", serif;
+}
+#icon{
+	background-color: black;
+}
+.container{
+	background-color: white;
+	margin-top: 20px;
+}
+#atas{
+	margin: 0px;
+	border: 0px;
+	margin-bottom: 20px;
+	attachment: fixed;
+}
+#menuuc{
+	font-weight: bold;
+	font-family: 'Lato', sans-serif;
+    color: #444444;
+    line-height: 1.6;
+    font-size: 12px;
+    letter-spacing: 1px;
+	margin-right: 650px;
+}
+#tombol{
+	border-color: #d8b89d;
+}
+#myNavbar{
+	border-color: #d8b89d;
+}
+
+
+
+#input{
+	width: 400px;
+}
+#contact-us{
+	margin: 0px;
+	font-weight: bold;
+	font-size: 80px;
+	font-family: "Tangerine", serif;
+	font-style: italic;
+	text-align: center;
+}	
+#contactFormSubmit{
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+	background: #f4f2f2;
+    color: #968d8d;
+    box-shadow: none;
+    border-color: #ebebeb;
+    font-size: 13px;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 2px;
+}
+#keterangan{
+	font-family: 'Lato', sans-serif;
+    color: #444444;
+    line-height: 1.6;
+    font-size: 12px;
+    letter-spacing: 1px;
+	font-weight: normal;
+}
+
+
+/* Screen Tablet */
+@media (max-width: 880px){
+	#logo{
+		width: 50px;
+		height: 50px;
+		float: left;
+	}
+	#a{
+		margin-top: 14px;
+		margin-left: 3px;
+		font-size: 35px;
+	}
+	#sosmed{
+		float: right;
+		margin-top: 8px;
+	}
+	#menuuc{
+		margin-right: 0px;
+	}
+	#tombol{
+		margin-right: 50px;
+		margin-top: 15px;
+	}
+	#menu{
+		padding-top: 5px;
+	}
+	#contact{
+		padding-top: 5px;
+		padding-bottom: 0px;
+	}
+}
+
+
+@media (max-width: 500px){
+	#menuu{
+		font-size: 10px;
+	}
+	#menuuc{
+		font-size: 10px;
+	}
+	#footer{
+		padding: 20px;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	#sosmed{
+		float: none;
+		margin-top: 8px;
+		margin-left: 28%;
+	}
+}

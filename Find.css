@@ -1,0 +1,243 @@
+.promo{
+	font-family: 'Lato', sans-serif;
+    color: #444444;
+    line-height: 1.6;
+    font-size: 10px;
+    letter-spacing: 1px;
+	font-weight: normal;
+	text-align: center;
+	padding: 7px;
+}
+#buy1{
+	margin-bottom: 0px;
+}
+a.navbar-brand{
+	font-size: 50px;
+	font-family: "Trebuchet MS";
+	font-weight: bold;
+}
+.container-fluid{
+	padding: 50px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #d8b89d;
+}
+#logo{
+	width: 60px;
+	height: 60px;
+	margin-left: 50px;
+}
+#sosmed{
+	width: 25px;
+	height: 25px;
+	margin-top: 13px;
+	margin-right: 20px;
+}
+#menuu{
+	font-weight: bold;
+	font-family: 'Lato', sans-serif;
+    color: #444444;
+    line-height: 1.6;
+    font-size: 12px;
+    letter-spacing: 1px;
+	padding-right: 20px;
+}
+#footer{
+	padding-right: 15px;
+	background-color: white;
+	margin: 0px;
+	border-color: white;
+	padding: 50px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+#menu{
+	padding-top: 20px;
+	padding-right: 10px;
+	font-weight: bold;
+	font-family: 'Lato', sans-serif;
+    color: #444444;
+    line-height: 1.6;
+    font-size: 12px;
+    letter-spacing: 1px;
+	background-color: #d8b89d;
+}
+#contact{
+	padding-top: 20px;
+	padding-right: 60px;
+	font-weight: bold;
+	font-family: 'Lato', sans-serif;
+    color: #444444;
+    line-height: 1.6;
+    font-size: 12px;
+    letter-spacing: 1px;
+	background-color: #d8b89d;
+}
+#a{
+	margin-top: 13px;
+	margin-left: 1px;
+	font-size: 40px;
+	color: black;
+	font-weight: bold;
+	font-family: "Tangerine", serif;
+}
+#icon{
+	background-color: black;
+}
+.container{
+	background-color: white;
+	margin-top: 20px;
+}
+#atas{
+	margin: 0px;
+	border: 0px;
+	margin-bottom: 20px;
+	attachment: fixed;
+}
+#menuuc{
+	font-weight: bold;
+	font-family: 'Lato', sans-serif;
+    color: #444444;
+    line-height: 1.6;
+    font-size: 12px;
+    letter-spacing: 1px;
+	margin-right: 650px;
+}
+#tombol{
+	border-color: #d8b89d;
+}
+
+
+.dropbtn {
+	background-color: #faf1e5;
+	padding: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 14px;
+	border: none;
+	border-radius: 15%;
+	cursor: pointer;
+	font-family: 'Lato', sans-serif;
+    color: #444444;
+    line-height: 1.6;
+    letter-spacing: 1px;
+	font-weight: normal;
+}
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: white;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.dropdown-content p.isi {
+	color: #444444;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	width: 260px;
+	font-family: 'Lato', sans-serif;
+	color: #444444;
+    line-height: 0.8;
+    letter-spacing: 1px;
+	font-weight: normal;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: #d8b89d;
+}
+#kota{
+	margin-left: 88px;
+	margin-top: 30px;
+	margin-bottom: 140px;
+}
+#daftar{
+	background-color: white;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.judul{
+	margin: 0px;
+	font-weight: bold;
+	font-size: 80px;
+	font-family: "Tangerine", serif;
+	font-style: italic;
+	text-align: center;
+}
+#myNavbar{
+	border-color: #d8b89d;
+}
+
+
+/* Screen Tablet */ 
+@media (max-width: 880px){
+	#logo{
+		width: 50px;
+		height: 50px;
+		float: left;
+	}
+	#a{
+		margin-top: 14px;
+		margin-left: 3px;
+		font-size: 35px;
+	}
+	#sosmed{
+		float: right;
+		margin-top: 8px;
+	}
+	#menuuc{
+		margin-right: 10px;
+	}
+	#tombol{
+		margin-right: 50px;
+		margin-top: 15px;
+	}
+	#menu{
+		padding-top: 5px;
+	}
+	#contact{
+		padding-top: 5px;
+		padding-bottom: 0px;
+	}
+	#kota{
+		margin-left: 3px;
+		margin-bottom: 90px;
+		display: inline-block;
+	}
+}
+
+
+@media (max-width: 500px){
+	#menuu{
+		font-size: 10px;
+	}
+	#menuuc{
+		font-size: 10px;
+	}
+	#footer{
+		padding: 20px;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	#sosmed{
+		float: none;
+		margin-top: 8px;
+		margin-left: 28%;
+	}
+	#kota{
+		margin-left: 20px;
+		margin-bottom: 50px;
+		display: inline-block;
+	}
+	.dropdown-content p.isi {
+		width: 200px;
+	}
+}
